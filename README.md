@@ -1,41 +1,54 @@
-# Fine-Tuning DarijaBERT for Moroccan Darija Text Classification using LoRA
+<div align="center">
 
-## Overview
+# 🚀 Fine-Tuning DarijaBERT for Moroccan Darija Text Classification
 
-This project focuses on fine-tuning the SI2M-Lab/DarijaBERT model for Moroccan Darija text classification using LoRA (Low-Rank Adaptation). The project demonstrates an end-to-end NLP workflow including data preprocessing, tokenization, model fine-tuning, evaluation, and performance analysis using Hugging Face Transformers and PyTorch.
+### 🧠 Parameter-Efficient NLP Fine-Tuning using LoRA & Hugging Face Transformers
 
-The objective is to build an efficient and lightweight NLP model capable of understanding and classifying Moroccan Darija text.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Transformers-FFCA28?style=for-the-badge&logo=huggingface&logoColor=black"/>
+  <img src="https://img.shields.io/badge/LoRA-8A2BE2?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/NLP-Moroccan%20Darija-success?style=for-the-badge"/>
+</p>
 
----
-
-## Features
-
-- Moroccan Darija text classification
-- Fine-tuning DarijaBERT
-- LoRA integration for parameter-efficient training
-- Dataset preprocessing and tokenization
-- Model evaluation using multiple metrics
-- Visualization of training performance
-- Confusion matrix analysis
+</div>
 
 ---
 
-## Technologies Used
+# 📌 Overview
 
-- Python
-- PyTorch
-- Hugging Face Transformers
-- PEFT (LoRA)
-- Datasets
-- Scikit-learn
-- Pandas
-- NumPy
-- Matplotlib
-- Jupyter Notebook
+This project focuses on fine-tuning the **SI2M-Lab/DarijaBERT** model for **Moroccan Darija text classification** using **LoRA (Low-Rank Adaptation)**.
+
+The workflow demonstrates a complete modern NLP pipeline including:
+
+✅ Data preprocessing  
+✅ Tokenization  
+✅ LoRA fine-tuning  
+✅ Model evaluation  
+✅ Metrics visualization  
+✅ Confusion matrix analysis  
+
+The objective is to build an efficient NLP model capable of understanding and classifying Moroccan Darija text.
 
 ---
 
-## Project Structure
+# 🧰 Tech Stack
+
+| Category | Technologies |
+|---|---|
+| Programming | Python |
+| Deep Learning | PyTorch |
+| NLP | Hugging Face Transformers |
+| Fine-Tuning | LoRA / PEFT |
+| Data Processing | Pandas, NumPy |
+| Evaluation | Scikit-learn |
+| Visualization | Matplotlib |
+| Environment | Jupyter Notebook |
+
+---
+
+# 📂 Project Structure
 
 ```bash
 darijabert-lora-finetuning/
@@ -57,46 +70,52 @@ darijabert-lora-finetuning/
 
 ---
 
-## Workflow
+# ⚙️ Workflow
 
-1. Load and preprocess the dataset
-2. Encode labels
-3. Tokenize Darija text using DarijaBERT tokenizer
-4. Configure LoRA parameters
-5. Fine-tune the model
-6. Evaluate model performance
-7. Visualize results and metrics
+<div align="center">
+
+```text
+Dataset → Preprocessing → Tokenization → DarijaBERT → LoRA Fine-Tuning → Evaluation → Visualization
+```
+
+</div>
 
 ---
 
-## Training Results
+# 📊 Training Results
 
-The model achieved strong performance after 10 training epochs.
-
-### Final Metrics
+<div align="center">
 
 | Metric | Score |
 |---|---|
-| Accuracy | 79.67% |
-| F1-Score | 78.91% |
-| Precision | 80.28% |
-| Recall | 79.67% |
+| 🎯 Accuracy | 79.67% |
+| 🧠 F1-Score | 78.91% |
+| 📌 Precision | 80.28% |
+| 🔍 Recall | 79.67% |
+
+</div>
 
 ---
 
-## Results Visualization
+# 📈 Results Visualization
 
-### Training Metrics
+## 🔥 Training Metrics
 
-![Training Metrics](results/training_metrics.png)
-
-### Confusion Matrix
-
-![Confusion Matrix](results/confusion_matrix.png)
+<p align="center">
+  <img src="results/training_metrics.png" width="850"/>
+</p>
 
 ---
 
-## Installation
+## 🧩 Confusion Matrix
+
+<p align="center">
+  <img src="results/confusion_matrix.png" width="650"/>
+</p>
+
+---
+
+# 🚀 Installation
 
 Clone the repository:
 
@@ -113,7 +132,7 @@ pip install -r requirements.txt
 
 ---
 
-## Run the Project
+# ▶️ Run the Project
 
 Launch Jupyter Notebook:
 
@@ -129,37 +148,60 @@ notebooks/darijabert_finetuning.ipynb
 
 ---
 
-## Requirements
+# 📦 Requirements
 
-Main libraries used:
-
-- transformers
-- torch
-- peft
-- datasets
-- accelerate
-- huggingface_hub
-- scikit-learn
-- pandas
-- numpy
-- matplotlib
+```txt
+transformers
+torch
+peft
+datasets
+accelerate
+huggingface_hub
+scikit-learn
+pandas
+numpy
+matplotlib
+jupyter
+notebook
+ipywidgets
+```
 
 ---
 
-## Future Improvements
+# 🔮 Future Improvements
 
 - Hyperparameter optimization
-- Larger Darija datasets
-- Model deployment with Streamlit
-- Integration with real-world Moroccan NLP applications
+- Larger Moroccan Darija datasets
+- Streamlit deployment
+- Real-time inference API
+- Model optimization for production
 
 ---
 
-## Author
+# 👩‍💻 Author
 
-Souad Zriouil
+<div align="center">
 
-AI Engineer | Data Scientist | Machine Learning | NLP | LLM
+## Souad Zriouil
 
-- GitHub: https://github.com/Souadzriouil
-- LinkedIn: www.linkedin.com/in/souad-zriouil-54b19b267
+### AI Engineer | Data Scientist | NLP & LLM Enthusiast
+
+<p align="center">
+  <a href="https://github.com/Souadzriouil">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+
+  <a href="https://www.linkedin.com/in/souad-zriouil-54b19b267">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+</p>
+
+</div>
+
+---
+
+<div align="center">
+
+⭐ If you like this project, feel free to star the repository.
+
+</div>
